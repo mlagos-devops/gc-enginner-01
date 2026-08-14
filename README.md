@@ -35,8 +35,7 @@ resource "google_project_service" "apis" {
 #### Verificar Instalacion y Libreias Python
 Verificar libreria requerida: "pip install google-cloud-iam"
 
-Lanzar el Script de roles en python
-python3 custom_role.py
+Lanzar el Script de roles en python "python3 custom_role.py"
 
 
 #### setup_iam.sh

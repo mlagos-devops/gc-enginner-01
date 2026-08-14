@@ -16,8 +16,7 @@
 # Módulo 1: Configuraremos un entorno seguro (IAM, VPCs personalizadas y Firewalls) usando Código.
 ## Google Cloud Engineer - v01
 ### 1.- Iniciar Terraform
-
-#### maint.tf
+#### main.tf
 provider "google" {
   project = "gc-enginner-01"
   region  = "us-central1"

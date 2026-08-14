@@ -1,4 +1,4 @@
-# Proyecto Practicas Google Cloud Enginner - v01
+# Proyecto Practicas Google Cloud Enginner
 # Google Cloud Enginner - v01
 # 1.- Iniciar Terraform
 # 2.- Iniciar IAM

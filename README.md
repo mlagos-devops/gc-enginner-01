@@ -1,6 +1,6 @@
 # Proyecto Practicas Google Cloud Engineer
 
-### Para el proyecxto se utilizara como Stack Tecnologico:
+### Para el proyecto se utilizara como Stack Tecnologico:
 #### IaC: Terraform
 #### Scripting: Bash & Python 3
 #### CLI: Gcloud sdk & kubecti

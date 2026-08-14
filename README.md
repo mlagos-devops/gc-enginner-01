@@ -15,11 +15,7 @@
 
 # Módulo 1: Configuraremos un entorno seguro (IAM, VPCs personalizadas y Firewalls) usando Código.
 ## Google Cloud Engineer - v01
-### 1.- Iniciar Terraform
-
-### Utilizar la Terminal
-#### Comandos Usados
-
+### 1 - Automatizando el Setup con Terraform (APIs)
 
 #### main.tf
 provider "google" {
@@ -33,8 +29,29 @@ resource "google_project_service" "apis" {
   disable_on_destroy = false
 }
 
-### 2.- Iniciar IAM
+### 2 - Service Accounts y IAM con Bash
 #### Comandos Usados
 Lanzar el Script de roles en python
 python3 custom_role.py
 Verificar libreria requerida: "pip install google-cloud-iam"
+
+#### setup_iam.sh
+gcloud iam service-accounts create dev-deployer --display-name "Deployer ML"
+
+gcloud projects add-iam-policy-binding gc-enginner-01 --member="serviceAccount:dev-deployer@gc-enginner-01.iam.gserviceaccount.com" --role="roles/compute.viewer"
+
+
+### 3 - Creando Roles Personalizados con Python
+.
+..
+...
+
+### 4 - Desplegando una VPC Segura (No default)
+.
+..
+...
+
+### 5 - Firewalls y Network Tags
+.
+..
+...

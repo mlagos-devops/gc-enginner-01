@@ -36,10 +36,11 @@ python3 custom_role.py
 Verificar libreria requerida: "pip install google-cloud-iam"
 
 #### setup_iam.sh
+```
 gcloud iam service-accounts create dev-deployer --display-name "Deployer ML"
 
 gcloud projects add-iam-policy-binding gc-enginner-01 --member="serviceAccount:dev-deployer@gc-enginner-01.iam.gserviceaccount.com" --role="roles/compute.viewer"
-
+``
 
 ### 3 - Creando Roles Personalizados con Python
 .

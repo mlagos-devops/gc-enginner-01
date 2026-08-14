@@ -32,10 +32,12 @@ resource "google_project_service" "apis" {
 ```
 
 ### 2 - Service Accounts y IAM con Bash
-#### Comandos Usados
+#### Verificar Instalacion y Libreias Python
+Verificar libreria requerida: "pip install google-cloud-iam"
+
 Lanzar el Script de roles en python
 python3 custom_role.py
-Verificar libreria requerida: "pip install google-cloud-iam"
+
 
 #### setup_iam.sh
 ```
